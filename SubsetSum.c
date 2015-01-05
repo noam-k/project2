@@ -28,7 +28,7 @@ void *SubsetSum(void *threadarg)
    int taskid, sum,i,sum2=0,taskid2;
    char *hello_msg;
    struct thread_data *my_data;
-   int binaryNumber[2]={0};
+   int binaryNumber[4]={0}; //was 2 before
 
    sleep(1);
    my_data = (struct thread_data *) threadarg;
